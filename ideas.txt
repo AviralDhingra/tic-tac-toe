@@ -1,4 +1,4 @@
- => Tic Tac Toe (UI & Terminal -- AI)
+ => Tic Tac Toe (UI & Terminal -- AI) => Final
  => Guessing Game ('Random' Library)
- => Rock Paper Scissors (If Condition Bot Opponent)
+ => Rock Paper Scissors (If Condition, Bot Opponent)
  => Finanance Manager Managaer (Flask)??
