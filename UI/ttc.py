@@ -25,49 +25,49 @@ class ttc:
 
     def decorating(self):
         Label(self.make_canvas, text="Tic Tac Toe AI\nAn 1NF1N17Y Production", bg="#141414",
-              fg="#00FF00", font=("Lato", 20, "bold")).place(x=90, y=10)
-        self.btn_1 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+              foreground="red", font=("Comic Sans MS", 20, "bold")).place(x=90, y=10)
+        self.btn_1 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(1), state=DISABLED)
         self.btn_1.place(x=20, y=100)
-        self.btn_2 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_2 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(2), state=DISABLED)
         self.btn_2.place(x=190, y=100)
-        self.btn_3 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_3 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(3), state=DISABLED)
         self.btn_3.place(x=360, y=100)
 
-        self.btn_4 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_4 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(4), state=DISABLED)
         self.btn_4.place(x=20, y=200)
-        self.btn_5 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_5 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(5), state=DISABLED)
         self.btn_5.place(x=190, y=200)
-        self.btn_6 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_6 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(6), state=DISABLED)
         self.btn_6.place(x=360, y=200)
 
-        self.btn_7 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_7 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(7), state=DISABLED)
         self.btn_7.place(x=20, y=300)
-        self.btn_8 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_8 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(8), state=DISABLED)
         self.btn_8.place(x=190, y=300)
-        self.btn_9 = Button(self.make_canvas, text="", font=("Arial", 15, "bold", "italic"), width=5, bg="#262626",
+        self.btn_9 = Button(self.make_canvas, text="", font=("Comic Sans MS", 15, "bold", "italic"), width=5, bg="#262626",
                             activebackground="#262626", bd=3, command=lambda: self.__human_play(9), state=DISABLED)
         self.btn_9.place(x=360, y=300)
 
         self.activate_btn = [self.btn_1, self.btn_2, self.btn_3, self.btn_4,
                              self.btn_5, self.btn_6, self.btn_7, self.btn_8, self.btn_9]
 
-        self.machine_first_control = Button(self.make_canvas, text="Machine vs Human", font=("Arial", 15, "bold", "italic"), bg="#262626",
-                                            activebackground="#262626", fg="#9d9dff", relief=RAISED, bd=3, command=lambda: self.control_give("machine_first"))
+        self.machine_first_control = Button(self.make_canvas, text="Machine vs Human", font=("Comic Sans MS", 15, "bold"), bg="#262626",
+                                            activebackground="#262626", foreground="blue", relief=RAISED, bd=3, command=lambda: self.control_give("machine_first"))
         self.machine_first_control.place(x=15, y=380)
 
         self.human_first_control = Button(self.make_canvas, text="Human vs Machine", font=(
-            "Arial", 15, "bold", "italic"), bg="#262626", activebackground="#262626", fg="#9d9dff", relief=RAISED, bd=3, command=self.control_give)
+            "Comic Sans MS", 15, "bold"), bg="#262626", activebackground="#262626", foreground="blue", relief=RAISED, bd=3, command=self.control_give)
         self.human_first_control.place(x=240, y=380)
 
-        self.reset_btn = Button(self.make_canvas, text="Reset", font=("Arial", 15, "bold", "italic"), bg="#262626",
+        self.reset_btn = Button(self.make_canvas, text="Reset", font=("Comic Sans MS", 15, "bold"), bg="#262626",
                                 activebackground="#262626", disabledforeground="grey", fg="#9d9dff", relief=RAISED, bd=3, command=self.reset, state=DISABLED)
         self.reset_btn.place(x=190, y=440)
 
