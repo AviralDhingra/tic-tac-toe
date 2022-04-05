@@ -44,23 +44,23 @@ List the ready features here:
 Cloning in local system & Installing the requirments
 
 ```
-git clone https://github.com/AviralDhingra/tic-tac-toe.git
-cd tic-tac-toe
-pip install -r requirments.txt
+$ git clone https://github.com/AviralDhingra/tic-tac-toe.git
+$ cd tic-tac-toe
+$ pip install -r requirments.txt
 ```
 
 Using the CLI (terminal) based version {only tested on linux}
 
 ```
-cd tic-tac-toe/CLI
-python3 main.py
+$ cd tic-tac-toe/CLI
+$ python3 main.py
 ```
 
 Using the UI based version (need tkinter up and running with no errors)
 
 ```
-cd tic-tac-toe/UI
-python3 main.py
+$ cd tic-tac-toe/UI
+$ python3 main.py
 ```
 
 ## Bugs
