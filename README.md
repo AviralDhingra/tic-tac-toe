@@ -9,7 +9,6 @@
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Bugs](#bugs)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## General Information
@@ -68,14 +67,7 @@ $ python3 main.py
 Issues:
 
 - The second move by the machine is grey while the others are green
-- Few combinations of player winning (like - 7, 8, 9) are not blocked by the bot
-
-## Acknowledgements
-
-Give credit here.
-
-- This project was inspired by my computer teacher Ms. Arshdeep Kaur
-- I collaborated with Arnav & Ella to make this project possible
+- Few combinations of player winning (Eg. 7, 8, 9) are not blocked by the bot
 
 ## Contact
 
